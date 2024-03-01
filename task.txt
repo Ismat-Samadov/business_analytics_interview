@@ -1,0 +1,220 @@
+Question 1
+
+Instructions for result submission: 
+
+Use appropriate formulas and functions to analyze the task and determine which option is the best choice.
+
+Provide a clear and concise explanation of the reasons why you chose one option over the other. 
+
+Save the completed Excel file with a descriptive file name and upload it to this platform. 
+Confirm that the uploaded file can be accessed and viewed correctly by the recipient. 
+If necessary, be prepared to discuss your decision 
+and the methodology used to arrive at it in further detail during an interview or presentation.
+
+Use case:
+Imagine you are responsible person for Birbank Cashback credit cards performance in the team. 
+Recently your manager observed decrease in sales trends and a slight portfolio loss in the market share. 
+He asked you to analyze a campaign offering 5% cashback for supermarket purchases (applied only to credit line), 
+to increase sales and get market position back within a month, in February. 
+You need to analyze campaign and decide whether it is feasible or not.
+Create detailed business case showing campaign's P&L and feasibilty. 
+Show your assumptions and calculations clearly.
+It is recommended to use real Birbank card terms and conditions and reach maximum easy-access data available. 
+Feel free to use assumptions on numbers that can not be reached easily or available only for internal use
+
+
+
+
+To analyze the feasibility of the campaign offering 5% cashback for supermarket purchases, we can break down the process into stages as follows:
+
+### Stage 1: Confirm the Opportunity
+
+#### Situation:
+- Observing a decrease in sales trends and a slight portfolio loss in market share.
+- Manager's directive to analyze a campaign offering 5% cashback for supermarket purchases.
+
+#### Business Opportunity:
+- Increase sales and regain market position within a month (February).
+
+#### Investment Logic:
+- Offer 5% cashback specifically for supermarket purchases, applied only to credit line.
+
+#### High-Level Business Requirements:
+- Generate sufficient cashback incentives to attract customers to use the Birbank Cashback credit card for supermarket purchases.
+- Ensure the campaign is cost-effective and profitable.
+
+### Stage 2: Analyze and Select the Short-listed Options
+
+#### Options:
+1. Implement the 5% cashback campaign for supermarket purchases.
+2. Implement alternative marketing strategies (e.g., discounts, promotions) targeted at increasing credit card usage.
+
+#### Analysis:
+- Assess potential impact on sales, market share, and profitability for each option.
+- Evaluate the cost-effectiveness and feasibility of implementing the 5% cashback campaign compared to alternative strategies.
+
+### Stage 3: Evaluate the Options
+
+#### Financial Projections:
+- Develop a P&L statement for the 5% cashback campaign.
+- Estimate revenue from increased credit card usage at supermarkets.
+- Determine the cost of providing 5% cashback to customers.
+- Calculate net profit or loss resulting from the campaign.
+
+#### Assumptions:
+- Average monthly supermarket spending per cardholder.
+- Percentage of supermarket purchases made using Birbank Cashback credit cards.
+- Redemption rate for cashback rewards.
+- Additional administrative and marketing costs associated with the campaign.
+
+### Stage 4: Develop the Implementation Strategy
+
+#### Plan:
+- Outline the implementation steps for launching the campaign.
+- Allocate resources for marketing and administrative tasks.
+- Establish milestones and timelines for monitoring campaign performance.
+
+### Stage 5: Develop Recommendations and Obtain Approval
+
+#### Recommendations:
+- Based on the financial analysis and feasibility assessment, make a recommendation regarding the implementation of the 5% cashback campaign.
+- Present the P&L statement and supporting data to decision-makers for approval.
+
+#### Justification:
+- Clearly articulate the potential benefits of the campaign in terms of sales growth, market share recovery, and profitability.
+- Address any potential risks or challenges associated with the campaign and propose mitigation strategies.
+- Highlight the alignment of the campaign with Birbank's strategic objectives and customer needs.
+
+I will now proceed to create the detailed P&L statement for the 5% cashback campaign, 
+incorporating relevant assumptions and calculations. Once completed, I will upload the Excel file for review.
+
+
+
+
+
+
+
+
+
+
+### Stage 1: Confirm the Opportunity
+
+#### Situation:
+- Sales trends decline and a slight loss in market share observed.
+- Manager's request to analyze a campaign offering 5% cashback for supermarket purchases.
+
+#### Business Opportunity:
+- Increase sales and regain market position within February.
+
+#### Investment Logic:
+- Offering 5% cashback on supermarket purchases exclusively for credit line users.
+
+#### High-Level Business Requirements:
+- Generate attractive cashback incentives to boost credit card usage.
+- Ensure the campaign is financially viable and profitable.
+
+### Stage 2: Analyze and Select the Short-listed Options
+
+#### Options:
+1. Implement the 5% cashback campaign for supermarket purchases.
+2. Implement alternative marketing strategies targeting increased credit card usage.
+
+#### Analysis:
+- Assess potential impact on sales, market share, and profitability for each option.
+- Evaluate cost-effectiveness and feasibility against alternative strategies.
+
+### Stage 3: Evaluate the Options
+
+#### Financial Projections:
+- Develop a P&L statement for the 5% cashback campaign.
+- Estimate revenue from increased credit card usage at supermarkets.
+- Calculate the cost of providing 5% cashback.
+- Determine net profit or loss resulting from the campaign.
+
+#### Assumptions:
+- Average monthly supermarket spending per cardholder.
+- Percentage of supermarket purchases made with Birbank Cashback credit cards.
+- Redemption rate for cashback rewards.
+- Administrative and marketing costs associated with the campaign.
+
+### Stage 4: Develop the Implementation Strategy
+
+#### Plan:
+- Outline implementation steps for campaign launch.
+- Allocate resources for marketing and administrative tasks.
+- Establish milestones and timelines for monitoring performance.
+
+### Stage 5: Develop Recommendations and Obtain Approval
+
+#### Recommendations:
+- Based on financial analysis, recommend the implementation of the 5% cashback campaign.
+- Present P&L statement and supporting data for approval.
+
+#### Justification:
+- Articulate potential benefits such as sales growth and market share recovery.
+- Address risks and propose mitigation strategies.
+- Highlight alignment with Birbank's strategic objectives and customer needs.
+
+Each stage of this process contributes to a comprehensive analysis and decision-making framework for evaluating the feasibility and potential impact of the 5% cashback campaign on Birbank's performance. Now, I'll proceed to create a detailed P&L statement for the campaign.
+
+To provide a detailed solution for each stage, I'll outline the steps for analyzing the feasibility of the 5% cashback campaign for supermarket purchases for Birbank Cashback credit cards:
+
+### Stage 1: Confirm the Opportunity
+
+1. **Situation Analysis:**
+   - Examine recent sales trends and market share data to identify the decline.
+   - Assess the impact of the observed decrease on overall business performance.
+
+2. **Business Opportunity:**
+   - Define the opportunity as increasing sales and regaining market position.
+   - Specify the timeframe for achieving these objectives (within February).
+
+3. **Investment Logic:**
+   - Determine the rationale behind offering 5% cashback for supermarket purchases.
+   - Align with the objective of incentivizing credit card usage and boosting sales.
+
+4. **High-Level Business Requirements:**
+   - Establish the need for a campaign that offers attractive incentives.
+   - Ensure the campaign aligns with Birbank's strategic goals and objectives.
+
+### Stage 2: Analyze and Select the Short-listed Options
+
+1. **Options Analysis:**
+   - Evaluate the 5% cashback campaign against alternative marketing strategies.
+   - Consider factors such as cost, potential impact on sales, and feasibility.
+
+### Stage 3: Evaluate the Options
+
+1. **Financial Projections:**
+   - Develop a Profit and Loss (P&L) statement for the 5% cashback campaign.
+   - Estimate revenue from increased credit card usage at supermarkets.
+   - Calculate the cost of providing 5% cashback and associated administrative expenses.
+   - Determine the potential profitability of the campaign.
+
+2. **Assumptions:**
+   - Estimate average monthly spending per cardholder at supermarkets.
+   - Determine the percentage of supermarket purchases made using Birbank Cashback credit cards.
+   - Project the redemption rate for cashback rewards.
+   - Account for additional administrative and marketing costs.
+
+### Stage 4: Develop the Implementation Strategy
+
+1. **Implementation Plan:**
+   - Outline the steps for launching the 5% cashback campaign.
+   - Allocate resources for marketing efforts, including digital and traditional channels.
+   - Define roles and responsibilities within the team for executing the campaign.
+   - Establish a timeline with specific milestones for monitoring progress.
+
+### Stage 5: Develop Recommendations and Obtain Approval
+
+1. **Recommendations:**
+   - Present the findings of the financial analysis and feasibility assessment.
+   - Recommend proceeding with the 5% cashback campaign based on projected profitability.
+   - Highlight the potential impact on sales growth and market share recovery.
+
+2. **Justification:**
+   - Explain the rationale behind the recommendation, emphasizing the alignment with strategic objectives.
+   - Address any potential risks associated with the campaign and propose mitigation strategies.
+   - Provide supporting evidence from the financial projections to substantiate the recommendation.
+
+By following these stages and providing detailed solutions, Birbank can make an informed decision regarding the feasibility of the 5% cashback campaign for supermarket purchases.
