@@ -217,4 +217,7 @@ To provide a detailed solution for each stage, I'll outline the steps for analyz
    - Address any potential risks associated with the campaign and propose mitigation strategies.
    - Provide supporting evidence from the financial projections to substantiate the recommendation.
 
-By following these stages and providing detailed solutions, Birbank can make an informed decision regarding the feasibility of the 5% cashback campaign for supermarket purchases.
+By following these stages and providing detailed solutions, 
+Birbank can make an informed decision regarding the feasibility of the 5% cashback campaign for supermarket purchases.
+
+
