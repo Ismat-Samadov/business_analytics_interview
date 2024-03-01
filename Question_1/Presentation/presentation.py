@@ -8,9 +8,13 @@ from pptx import Presentation
 from pptx.util import Inches
 from fpdf import FPDF
 
+# Set the directory path
+directory = r"C:\Users\Ismat\business_analytics_interview\Question_1\Presentation"
+
 # Create a directory to store images if it doesn't exist
-if not os.path.exists("images"):
-    os.makedirs("images")
+image_directory = os.path.join(directory, "images")
+if not os.path.exists(image_directory):
+    os.makedirs(image_directory)
 
 # Generate monthly expenses dataframe
 df = generate_monthly_expenses()
@@ -29,7 +33,7 @@ plt.title('Total Expenses by Category')
 plt.xlabel('Category')
 plt.ylabel('Total Expenses')
 filename1 = "total_expenses_by_category.png"
-plt.savefig(os.path.join("images", filename1))
+plt.savefig(os.path.join(image_directory, filename1))
 plt.close()
 
 # 2. Most Expensive Subcategories
@@ -40,7 +44,7 @@ plt.title('Top 5 Most Expensive Subcategories')
 plt.xlabel('Total Expenses')
 plt.ylabel('Subcategory')
 filename2 = "most_expensive_subcategories.png"
-plt.savefig(os.path.join("images", filename2))
+plt.savefig(os.path.join(image_directory, filename2))
 plt.close()
 
 # 3. Calculate transaction frequency for each part of the month
@@ -58,7 +62,7 @@ plt.ylabel('Frequency')
 plt.xticks(early_month.index)
 plt.legend()
 filename3 = "transaction_frequency_over_time.png"
-plt.savefig(os.path.join("images", filename3))
+plt.savefig(os.path.join(image_directory, filename3))
 plt.close()
 
 # 4. Average Transaction Amount by Category
@@ -69,7 +73,7 @@ plt.title('Average Transaction Amount by Category')
 plt.xlabel('Category')
 plt.ylabel('Average Amount')
 filename4 = "average_transaction_amount_by_category.png"
-plt.savefig(os.path.join("images", filename4))
+plt.savefig(os.path.join(image_directory, filename4))
 plt.close()
 
 # 5. Distribution of Transaction Amounts
@@ -79,7 +83,7 @@ plt.title('Distribution of Transaction Amounts')
 plt.xlabel('Amount')
 plt.ylabel('Frequency')
 filename5 = "distribution_of_transaction_amounts.png"
-plt.savefig(os.path.join("images", filename5))
+plt.savefig(os.path.join(image_directory, filename5))
 plt.close()
 
 # 6. Customer Age Distribution
@@ -90,7 +94,7 @@ plt.title('Customer Age Distribution')
 plt.xlabel('Age')
 plt.ylabel('Frequency')
 filename6 = "customer_age_distribution.png"
-plt.savefig(os.path.join("images", filename6))
+plt.savefig(os.path.join(image_directory, filename6))
 plt.close()
 
 # 7. Most Visited Locations
@@ -101,7 +105,7 @@ plt.title('Most Visited Locations')
 plt.xlabel('Location')
 plt.ylabel('Frequency')
 filename7 = "most_visited_locations.png"
-plt.savefig(os.path.join("images", filename7))
+plt.savefig(os.path.join(image_directory, filename7))
 plt.close()
 
 # 8. Transaction Amounts vs. Birth Year
@@ -111,7 +115,7 @@ plt.title('Transaction Amounts vs. Birth Year')
 plt.xlabel('Birth Year')
 plt.ylabel('Amount')
 filename8 = "transaction_amounts_vs_birth_year.png"
-plt.savefig(os.path.join("images", filename8))
+plt.savefig(os.path.join(image_directory, filename8))
 plt.close()
 
 # 9. Transaction Amounts by Location
@@ -121,40 +125,34 @@ plt.title('Transaction Amounts by Location')
 plt.xlabel('Location')
 plt.ylabel('Amount')
 filename9 = "transaction_amounts_by_location.png"
-plt.savefig(os.path.join("images", filename9))
+plt.savefig(os.path.join(image_directory, filename9))
 plt.close()
 
-# 10. Transaction Patterns
-plt.figure(figsize=(10, 6))
-sns.countplot(x='transaction_date', hue='category', data=df)
-plt.title('Transaction Patterns')
-plt.xlabel('Transaction Date')
-plt.ylabel('Frequency')
-filename10 = "transaction_patterns.png"
-plt.savefig(os.path.join("images", filename10))
-plt.close()
+
 
 # Create PowerPoint presentation and insert images into slides
 presentation = Presentation()
 
-for image_file in sorted(os.listdir("images")):
+for image_file in sorted(os.listdir(image_directory)):
     if image_file.endswith(".png"):
         slide_layout = presentation.slide_layouts[5]  # Choose appropriate slide layout
         slide = presentation.slides.add_slide(slide_layout)
-        image_path = os.path.join("images", image_file)
+        image_path = os.path.join(image_directory, image_file)
         left = top = Inches(1)
         slide.shapes.add_picture(image_path, left, top, width=Inches(9), height=Inches(6))
 
-presentation.save("monthly_expenses_analysis.pptx")
+presentation.save(os.path.join(directory, "monthly_expenses_analysis.pptx"))
 
 # Create PDF document and insert images
 pdf = FPDF()
 pdf.set_auto_page_break(auto=True, margin=15)
 pdf.add_page()
 
-for image_file in sorted(os.listdir("images")):
+for image_file in sorted(os.listdir(image_directory)):
     if image_file.endswith(".png"):
-        image_path = os.path.join("images", image_file)
-        pdf.image(image_path, x=10, y=10, w=190)  # Assuming A4 page size, adjust coordinates as needed
+        image_path = os.path.join(image_directory, image_file)
+        pdf.image(image_path, x=10, y=10, w=190)  
 
-pdf.output("monthly_expenses_analysis.pdf")
+pdf.output(os.path.join(directory, "monthly_expenses_analysis.pdf"))
+
+
