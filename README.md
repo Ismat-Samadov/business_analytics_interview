@@ -1,5 +1,5 @@
 ```
-# Campaign Feasibility Analysis
+Campaign Feasibility Analysis
 
 Overview
 This Excel spreadsheet is designed to help analyze the feasibility of a campaign offering 5% cashback 
