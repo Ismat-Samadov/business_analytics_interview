@@ -1,5 +1,3 @@
-Certainly! Below is the README file with the Excel spreadsheet included:
-
 ```
 # Campaign Feasibility Analysis
 
