@@ -45,4 +45,3 @@ depending on the availability of data and specific requirements.
 
 By using this Excel spreadsheet, you can efficiently analyze the feasibility of the campaign offering 5% cashback for 
 supermarket purchases and make informed decisions based on the calculated net profit/loss and ROI.
-```
