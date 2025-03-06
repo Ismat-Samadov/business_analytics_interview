@@ -1,4 +1,3 @@
-```
 Campaign Feasibility Analysis
 
 Overview
